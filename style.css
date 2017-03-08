@@ -1,0 +1,50 @@
+/* My CSS elements are ordered in the same order as my HTML elements to easily track between the two */
+
+a:link    { color: black;  }
+a:visited { color: #252323;   }
+a:hover   { color: purple; }
+a:active  { color: maroon;  }
+
+header {
+  height: 100px;
+  background-color: #F8F8F8;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  line-height: 100px
+}
+
+h2 {
+  background-color: #F8F8F8;
+}
+
+main {
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(http://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-position: center center;
+}
+
+footer {
+  height: 100px;
+  background-color: #F8F8F8;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  width: 600px;
+  margin: auto;
+  background-color: #F8F8F8;
+}
+
+#none {
+  list-style-type: none;
+  line-height: 20px;
+}
